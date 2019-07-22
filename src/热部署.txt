@@ -1,0 +1,16 @@
+热部署
+
+1. springloader进行项目的热部署
+    1. 以maven插件方式部署
+    2. 使用maven命令来启动, 进行热部署
+        spring-boot:run
+        运行命令模式
+        注意: 缺陷: 只能对后台做热部署处理
+                    再次启动, 会有端口抢占的错误, 需要手动杀掉进程: java.exe
+
+    2.1 使用jar包方式
+
+2. springloader与devtools的区别
+    1. springloader在部署项目是使用的是热部署的方式
+    2. devtools: 在部署项目时, 使用的是重新部署的方式
+        相当于不属于热部署, 属于重新部署
